@@ -7,4 +7,4 @@
     <li>train availibility etc.</li>
 </ul>
 
-<footer>follow me for more ideas github - prathameshvattamwar</footer>
+<footer>follow me for more ideas <a href="https://github.com/prathameshvattamwar">https://github.com/prathameshvattamwar</a></footer>
