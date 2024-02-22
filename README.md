@@ -1,4 +1,4 @@
-<h3>I tried to make simple basic task using JavaScript.</h3>
+<h3>I tried to make simple basic task using JavaScript.(if-else based)</h3>
 <p> We can modify it and add more ideas in it like</p> 
 <ul> 
     <li>Train number</li>
