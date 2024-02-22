@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickiet Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Tickiet Booking Form</h1>
+        <form id="bookingForm" onsubmit="return proceed(event)">
+            <div class="field">
+                <label>Journey Date</label>
+                <input type="date" id="journeyDate" required>
+            </div>
+            <div class="field">
+                <label>From</label>
+                <select id="fromStation" required>
+                    <option value="0">From Station</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Solapur">Solapur</option>
+                    <option value="Solapur">Pandharpur</option>
+                    <option value="C.Sambhaji Nagar">C.Sambhaji Nagar</option>
+                </select>
+            </div>
+            <div class="field">
+                <label>To</label>
+                <select id="toStation" required>
+                    <option value="0">To Station</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Solapur">Solapur</option>
+                    <option value="Solapur">Pandharpur</option>
+                    <option value="C.Sambhaji Nagar">C.Sambhaji Nagar</option>
+                </select>
+            </div>
+            <input type="submit" id="search" class="button" value="Submit"></input>
+            <input type="button" id="clear" class="button" value="Clear" onclick="clearForm()"></input>
+        </form>
+
+        <div class="journeyDetails">
+            <h2>Selected Journey Details</h2>
+            <p>Journey Date : <span id="jd"></span></p>
+            <p>From : <span id="fromS"></span></p>
+            <p>To : <span id="toS"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
